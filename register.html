@@ -4,15 +4,28 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Animado</title>
+    <title>Register Animado</title>
 </head>
 
 <body>
     <section>
-        <div class="form-box-login">
+        <div class="form-box-register">
             <div class="form-value glow">
                 <form action="">
-                    <h2>Login</h2>
+                    <h2>Register</h2>
+                    
+                    <div class="inputbox">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <input type="text" required>
+                        <label for="">Full name</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+                        <input type="number" required>
+                        <label for="">Age</label>
+                    </div>
+
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <input type="email" required>
@@ -24,19 +37,13 @@
                         <input type="password" required>
                         <label for="">Password</label>
                     </div>
-                    <div class="forget">
-                        <label for="">
-                            <input type="checkbox">
-                            Remember me
-                            <a href="#">Forget password</a>
-                        </label>
-                    </div>
-                    <button>Log in</button>
+                    
+                    <button>Register</button>
                     
                     <div class="otherOption">
                         <p>
-                            Don't have a account
-                            <a href="register.html">Register</a>
+                            I have a account
+                            <a href="login.html">Login</a>
                         </p>
                     </div>
                 </form>
